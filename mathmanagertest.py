@@ -16,4 +16,4 @@ class mathmanagertest(unittest.TestCase):
 
 	def testDegree(self):
 		math = mathmanager()
-		self.assertEqual(math.degree([20,20,20,20),20)
+		self.assertEqual(math.degree([20,20,20,20]),20)
