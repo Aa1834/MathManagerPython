@@ -14,7 +14,7 @@ class mathmanager:
 			return 1.038^12 * b
 		else:
 			return 3.6 * b
-	def testDegree (self,module,grade):
+	def degree (self,module,grade):
 		module = [] 
 		for i in module:
 			(module[i] + module [i+1])/5
