@@ -13,3 +13,7 @@ class mathmanagertest(unittest.TestCase):
 	def testMultiply(self):
 		math = mathmanager()
 		self.assertEqual(math.multiply(0, 3), 0)
+
+	def testDegree(self):
+		math = mathmanager()
+		self.assertEqual(math.degree([20,20,20,20),20)
