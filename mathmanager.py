@@ -14,8 +14,11 @@ class mathmanager:
 			return 1.038^12 * b
 		else:
 			return 3.6 * b
-	def degree (self,module,grade):
-		module = [] 
-		for i in module:
-			(module[i] + module [i+1])/5
+	def degree (self,grade):
+		grade = [] 
+		total = 0
+		for i in grade:
+			total = total + grade[i] 
+		classification = total/grade.length
+		return classification 
 		
